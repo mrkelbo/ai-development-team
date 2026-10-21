@@ -1,0 +1,41 @@
+# Change request: CR-<id> — <title>
+
+- **Application / version:**
+- **Status:** INTAKE
+- **Accountable agent:** Coordinator (until assigned)
+- **Specialist owner:**
+- **Reviewers:**
+- **Risk:** LOW / MEDIUM / HIGH / CRITICAL
+- **Source / request date:**
+
+## Requirement and acceptance
+
+**Current behavior:**
+
+**Required behavior:**
+
+**Measurable acceptance tests:**
+
+**Non-goals and assumptions:**
+
+## Impact and responsibilities
+
+| Component / contract | Affected? | Agent owner | Notes |
+|---|---|---|---|
+| Data / migration | | | |
+| Business logic / API | | | |
+| Customer UI | | | |
+| Admin UI | | | |
+| Platform/ops | | | |
+| Security/company boundaries | | | |
+
+## Execution and review
+
+- Dependencies / sequence:
+- Files allowed / excluded:
+- Tests and populated-data upgrade check:
+- Documentation changes:
+- Production / destructive authorization needed:
+- Risks / reversibility:
+- Outstanding or unassigned tasks (Coordinator MUST route):
+- Final Coordinator acceptance and QA evidence:

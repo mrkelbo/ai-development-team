@@ -1,0 +1,34 @@
+# <Application name> — Claude Code project context
+
+## Product goal and scope
+
+<What product does; intended users; MVP; explicit non-goals>
+
+## Application profile
+
+See `docs/project-profile.yaml`. Do not assume web-only architecture; identify desktop/web/Python web/mobile/hybrid stack, offline behavior and deployment mechanism.
+
+## Mandatory engineering rules
+
+- Existing customer records and files survive routine upgrades; no resets or destructive migrations without special authorization.
+- Every company is explicitly identified, even in a dedicated single-company installation.
+- Platform administrators/technicians/users have different grants from company administrators/personnel. Platform technicians support **only assigned companies** through audited, server-enforced permissions.
+- UI/Admin UI do not access database directly when a trusted service/repository boundary exists. Domain/business operations own rules; Data owns schema/migrations.
+- Preserve API/contracts and minimize affected deployment units where architecture permits.
+- Every change has an accountable agent owner, tests, documentation and independent QA when risk warrants. Coordinator assigns anything unowned.
+
+## Repositories/modules and commands
+
+<Structure and actual install/build/test/lint/migration commands; do not invent>
+
+## Data and environments
+
+<Source of truth DB/file location names only, migration tool, secrets mechanism; no secrets>
+
+## Approval requirements
+
+No production deployment, destructive schema/data action, privileged support access or live customer export without explicit approval.
+
+## Documentation / tracked work
+
+`docs/requirements/`, `docs/changes/`, `docs/architecture/`, `docs/security/`, `docs/data/`, `docs/releases/`, `docs/testing/` or existing equivalents.

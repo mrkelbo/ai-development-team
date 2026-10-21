@@ -1,0 +1,15 @@
+# Agent handoff — <change ID>
+
+- **Owner / role:**
+- **Status:** PASS / FAIL / BLOCKED / NEEDS_REVIEW
+- **In-scope work performed:**
+- **Files modified (exact paths):**
+- **Interfaces / behavior changed:**
+- **Data, tenancy, permissions and security implications:**
+- **Commands/tests actually executed and result:**
+- **Tests not executed and why:**
+- **Documentation updated:**
+- **Potential breaking changes / migration / release sequence:**
+- **Known limitations or open risks:**
+- **Cross-agent work discovered; Coordinator assignment needed:**
+- **Next owner / reviewer / action:**

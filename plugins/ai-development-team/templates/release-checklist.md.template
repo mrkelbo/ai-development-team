@@ -1,0 +1,19 @@
+# Release checklist — <application version>
+
+- [ ] Change IDs, owner reports and scope are complete
+- [ ] Only affected artifacts planned for deployment where architecture permits
+- [ ] Contract/dependency compatibility checked
+- [ ] Company/role security review performed when applicable
+- [ ] Database migration versioned and populated-data upgrade-tested when applicable
+- [ ] Backup/restore validated when upgrade risk requires it
+- [ ] Automated build and tests run with evidence
+- [ ] QA acceptance, regression and negative tests recorded
+- [ ] Release notes and documentation updated
+- [ ] Roll-forward/rollback and known irreversible limitations documented
+- [ ] Human production authorization recorded if deploying
+- [ ] Deployment runbook and smoke/health tests prepared
+- [ ] Post-release verification observed and reported
+
+**Status:** NOT_READY / READY_FOR_APPROVAL / APPROVED / DEPLOYED / VERIFIED
+
+**Evidence and outstanding items:**

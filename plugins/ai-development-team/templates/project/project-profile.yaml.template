@@ -1,0 +1,33 @@
+# Replace placeholders for each application. No real credentials here.
+project:
+  name: "<name>"
+  goal: "<business purpose>"
+  profile: "<desktop|web|python-web|hybrid|mobile|cli|embedded|other>"
+  languages: []
+  frameworks: []
+  repositories: []
+  os_or_browser_targets: []
+  offline_required: false
+  installation_or_hosting: "<how software reaches users>"
+  independently_deployable_units: []
+organizations:
+  company_identity_required: true
+  tenancy: "<dedicated-install|shared-tables|separate-schema|separate-database|other>"
+  platform_roles: [platform-admin, platform-tech, platform-user]
+  company_roles: [company-admin]
+  support_assignment_required: true
+  user_multiple_company_membership: "<yes|no|undecided>"
+security:
+  auth_method: "<local|OIDC|SSO|other|undecided>"
+  audit_policy: "<defined in security docs>"
+data:
+  store: "<SQLite|PostgreSQL|files|other|undecided>"
+  migrations: "<tool/strategy>"
+  existing_customer_data: "<yes|no>"
+  backup_restore_plan: "<doc path>"
+delivery:
+  environments: [development, testing, production]
+  release_mechanism: "<installer|container|static-host|service|other>"
+  testing_commands: []
+  deployment_requires_human_approval: true
+  rollback_or_rollforward: "<plan>"
