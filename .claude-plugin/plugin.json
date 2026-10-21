@@ -1,0 +1,14 @@
+{
+  "name": "ai-team-marketplace",
+  "description": "Private marketplace for the cross-project AI Development Team.",
+  "owner": {
+    "name": "AI Development Team Maintainer"
+  },
+  "plugins": [
+    {
+      "name": "ai-development-team",
+      "source": "./plugins/ai-development-team",
+      "description": "Ten-role, technology-agnostic software development team with governance workflows and templates."
+    }
+  ]
+}
